@@ -28,6 +28,9 @@ const Navbar = () => {
         <NavLink to="/" className="nav-link text-white" >Home </NavLink>
       </li>
       <li className="nav-item active">
+        <NavLink to="/admin" className="nav-link text-white" >Admin</NavLink>
+      </li>
+      <li className="nav-item active">
        {
          !login ? (
            <>
@@ -35,7 +38,7 @@ const Navbar = () => {
            
            </>
          )
-         :   <NavLink to="/logout" className="nav-link text-white" >LogOut</NavLink>
+         :   <NavLink to="/" className="nav-link text-white" >LogOut</NavLink>
        }
       </li>
       

@@ -5,6 +5,7 @@ import Home from './component/Home';
 import Login from './component/Login';
 import Register from './component/Register';
 import Profile from './component/Profile';
+import LoginAdmin from './component/admin';
 import './App.css';
 
 const App = () => {
@@ -16,6 +17,9 @@ const App = () => {
       <Route exact path ="/login" component={Login}/>
       <Route exact path ="/register" component={Register}/>
       <Route exact path ="/profile" component={Profile}/>
+      <Route exact path ="/registerAdmin" />
+      <Route exact path ="/admin" component={LoginAdmin}/>
+
      
     </Switch>
      

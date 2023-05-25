@@ -50,7 +50,7 @@ if(val.data.msg)
         console.log(val);
         if(val.data.user)
         {
-            his.push("/profile")
+          //  his.push("/profile")
             // console.log(val.data.user[0].email);
         }
        }

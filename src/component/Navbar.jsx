@@ -38,7 +38,7 @@ const Navbar = () => {
            
            </>
          )
-         :   <NavLink to="/" className="nav-link text-white" >LogOut</NavLink>
+         :   <NavLink to="/login" className="nav-link text-white" >LogOut</NavLink>
        }
       </li>
       

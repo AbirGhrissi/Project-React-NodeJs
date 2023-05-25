@@ -35,7 +35,7 @@ if(val.data.msg)
     useEffect(() => {
         if(show)
             {
-                his.push("/profile");
+                his.push("/FileUpload");
                 
             }
         
@@ -51,7 +51,7 @@ if(val.data.msg)
         console.log(val);
         if(val.data.user)
         {
-            his.push("/profile")
+      // his.push("/FileUpload")
             // console.log(val.data.user[0].email);
         }
        }
